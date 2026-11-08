@@ -1,0 +1,4 @@
+/backend/config/application-local.properties
+node_modules/
+target/
+.idea/

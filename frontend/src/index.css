@@ -1,0 +1,20 @@
+:root {
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --font-sans: Inter, Aptos, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  color: #20251f;
+  background: #0d1110;
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; background: #0d1110; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input { font-family: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid #71851f; outline-offset: 3px; }
+::selection { color: #11150f; background: #d7ff4f; }
